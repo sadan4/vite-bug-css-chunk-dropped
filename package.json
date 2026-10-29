@@ -1,0 +1,12 @@
+{
+  "name": "vite-entry-css-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:static": "vite build --mode static --outDir dist-static",
+    "build:dynamic": "vite build --mode dynamic --outDir dist-dynamic"
+  },
+  "devDependencies": {
+    "vite": "8.3.5"
+  }
+}

@@ -5,7 +5,7 @@ export default defineConfig(({ mode }) => ({
     build: {
         emptyOutDir: true,
         rolldownOptions: {
-            input: mode === "dynamic" ? "src/main-dynamic.js" : "src/main-static.js",
+            input: mode === "dynamic" ? "dynamic.html" : "static.html",
             output: {
                 entryFileNames: "index.js",
                 chunkFileNames: "[name]-[hash:8].js",
